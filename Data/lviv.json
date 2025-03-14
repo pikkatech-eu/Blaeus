@@ -1,0 +1,445 @@
+{
+  "timezone": {
+    "gmtOffset": 2,
+    "timeZoneId": "Europe/Kyiv",
+    "dstOffset": 3
+  },
+  "bbox": {
+    "east": 24.193985974783512,
+    "south": 49.72838570170027,
+    "north": 49.948132768949954,
+    "west": 23.852488482003597,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Lviv",
+  "astergdem": 288,
+  "countryId": "690791",
+  "fcl": "P",
+  "srtm3": 284,
+  "adminId2": "12189514",
+  "countryCode": "UA",
+  "adminCodes1": {
+    "ISO3166_2": "46"
+  },
+  "adminId1": "702549",
+  "lat": "49.83826",
+  "fcode": "PPLA",
+  "continentCode": "EU",
+  "adminCode2": "4606",
+  "adminCode1": "15",
+  "lng": "24.02324",
+  "geonameId": 702550,
+  "toponymName": "Lviv",
+  "population": 717273,
+  "wikipediaURL": "en.wikipedia.org/wiki/Lviv",
+  "adminName5": "",
+  "adminName4": "",
+  "adminName3": "",
+  "alternateNames": [
+    {
+      "name": "리비브",
+      "lang": "ko"
+    },
+    {
+      "isPreferredName": true,
+      "name": "리비우",
+      "lang": "ko"
+    },
+    {
+      "name": "ลวีฟ",
+      "lang": "th"
+    },
+    {
+      "name": "リヴィウ",
+      "lang": "ja"
+    },
+    {
+      "name": "https://en.wikipedia.org/wiki/Lviv",
+      "lang": "link"
+    },
+    {
+      "name": "https://ru.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2",
+      "lang": "link"
+    },
+    {
+      "name": "İlbav",
+      "lang": "crh"
+    },
+    {
+      "name": "Lavov",
+      "lang": "bs"
+    },
+    {
+      "name": "Lavov",
+      "lang": "hbs"
+    },
+    {
+      "name": "Lavov",
+      "lang": "hr"
+    },
+    {
+      "name": "Lavov",
+      "lang": "sr"
+    },
+    {
+      "name": "Lembärsch",
+      "lang": "pfl"
+    },
+    {
+      "name": "Lemberg",
+      "lang": "als"
+    },
+    {
+      "name": "Lemberg",
+      "lang": "bar"
+    },
+    {
+      "name": "Lemberg",
+      "lang": "de",
+      "isHistoric": true
+    },
+    {
+      "name": "Lemburg",
+      "lang": "ang"
+    },
+    {
+      "name": "Leopoli",
+      "lang": "it"
+    },
+    {
+      "name": "Leopołi",
+      "lang": "vec"
+    },
+    {
+      "name": "Leopolis",
+      "lang": "la"
+    },
+    {
+      "name": "Leopolis"
+    },
+    {
+      "name": "Leópolis",
+      "lang": "es"
+    },
+    {
+      "name": "Leopul",
+      "lang": "lmo"
+    },
+    {
+      "name": "Liòpuli",
+      "lang": "scn"
+    },
+    {
+      "name": "Liov",
+      "lang": "ro"
+    },
+    {
+      "name": "Ljviv",
+      "lang": "fo"
+    },
+    {
+      "isPreferredName": true,
+      "name": "Ljviv",
+      "lang": "hr"
+    },
+    {
+      "name": "Lviv",
+      "lang": "da"
+    },
+    {
+      "name": "Lviv",
+      "lang": "en"
+    },
+    {
+      "name": "Lviv",
+      "lang": "et"
+    },
+    {
+      "name": "Lviv",
+      "lang": "fi"
+    },
+    {
+      "name": "Lviv",
+      "lang": "fr"
+    },
+    {
+      "name": "Lviv",
+      "lang": "gl"
+    },
+    {
+      "name": "Lviv",
+      "lang": "hu"
+    },
+    {
+      "name": "Lviv",
+      "lang": "id"
+    },
+    {
+      "name": "Lviv",
+      "lang": "jv"
+    },
+    {
+      "name": "Lviv",
+      "lang": "nl"
+    },
+    {
+      "name": "Lviv",
+      "lang": "no"
+    },
+    {
+      "name": "Lviv",
+      "lang": "pt"
+    },
+    {
+      "name": "Lviv",
+      "lang": "ro"
+    },
+    {
+      "name": "Lviv",
+      "lang": "sv"
+    },
+    {
+      "name": "Lviv",
+      "lang": "vi"
+    },
+    {
+      "name": "Lviv"
+    },
+    {
+      "name": "Lvivo",
+      "lang": "eo"
+    },
+    {
+      "name": "Lvov",
+      "lang": "az"
+    },
+    {
+      "name": "Lvov",
+      "lang": "cs"
+    },
+    {
+      "name": "Lvov",
+      "lang": "sl"
+    },
+    {
+      "name": "Lvov",
+      "lang": "uz"
+    },
+    {
+      "name": "Lvov",
+      "lang": "vep"
+    },
+    {
+      "name": "L'vov"
+    },
+    {
+      "name": "Ľvov",
+      "lang": "sk"
+    },
+    {
+      "name": "Ļvova",
+      "lang": "lv"
+    },
+    {
+      "name": "Lvovas",
+      "lang": "lt"
+    },
+    {
+      "name": "Lwif",
+      "lang": "af"
+    },
+    {
+      "name": "Lwiw",
+      "lang": "de"
+    },
+    {
+      "name": "Lwiw",
+      "lang": "qu"
+    },
+    {
+      "name": "Lwiw",
+      "lang": "tk"
+    },
+    {
+      "name": "LWO",
+      "lang": "iata"
+    },
+    {
+      "name": "Lwów",
+      "lang": "hsb"
+    },
+    {
+      "isPreferredName": true,
+      "name": "Lwów",
+      "lang": "pl"
+    },
+    {
+      "name": "Lwůw",
+      "lang": "szl"
+    },
+    {
+      "name": "Q36036",
+      "lang": "wkdt"
+    },
+    {
+      "name": "UALVI",
+      "lang": "unlc"
+    },
+    {
+      "name": "UALVV",
+      "lang": "unlc"
+    },
+    {
+      "name": "UALWO",
+      "lang": "unlc"
+    },
+    {
+      "name": "لڤیڤ",
+      "lang": "ckb"
+    },
+    {
+      "name": "لفيف",
+      "lang": "ar"
+    },
+    {
+      "name": "لویو",
+      "lang": "pnb"
+    },
+    {
+      "name": "لیویو",
+      "lang": "ur"
+    },
+    {
+      "name": "لووف",
+      "lang": "fa"
+    },
+    {
+      "name": "לבוב",
+      "lang": "he"
+    },
+    {
+      "name": "לעמבערג",
+      "lang": "yi"
+    },
+    {
+      "name": "לעמבריק",
+      "lang": "yi",
+      "isHistoric": true
+    },
+    {
+      "name": "Λβιβ",
+      "lang": "el"
+    },
+    {
+      "name": "Λβιβ",
+      "lang": "pnt"
+    },
+    {
+      "name": "Лавов",
+      "lang": "mk"
+    },
+    {
+      "name": "Лвов",
+      "lang": "bg"
+    },
+    {
+      "name": "Львив",
+      "lang": "ab"
+    },
+    {
+      "name": "Львив",
+      "lang": "tg"
+    },
+    {
+      "name": "Львів",
+      "lang": "rue"
+    },
+    {
+      "isPreferredName": true,
+      "name": "Львів",
+      "lang": "uk"
+    },
+    {
+      "name": "Львов",
+      "lang": "ba"
+    },
+    {
+      "name": "Львов",
+      "lang": "ce"
+    },
+    {
+      "name": "Львов",
+      "lang": "cv"
+    },
+    {
+      "name": "Львов",
+      "lang": "kk"
+    },
+    {
+      "name": "Львов",
+      "lang": "ky"
+    },
+    {
+      "name": "Львов",
+      "lang": "mhr"
+    },
+    {
+      "name": "Львов",
+      "lang": "mn"
+    },
+    {
+      "name": "Львов",
+      "lang": "mrj"
+    },
+    {
+      "name": "Львов",
+      "lang": "os"
+    },
+    {
+      "name": "Львов",
+      "lang": "ru"
+    },
+    {
+      "name": "Львов",
+      "lang": "sah"
+    },
+    {
+      "name": "Львов",
+      "lang": "tt"
+    },
+    {
+      "name": "Львов ош",
+      "lang": "myv"
+    },
+    {
+      "name": "Львоў",
+      "lang": "be"
+    },
+    {
+      "name": "Լվով",
+      "lang": "hy"
+    },
+    {
+      "name": "ლვოვი",
+      "lang": "ka"
+    },
+    {
+      "name": "लिव्हिव",
+      "lang": "mr"
+    },
+    {
+      "name": "லிவீவ்",
+      "lang": "ta"
+    },
+    {
+      "name": "利沃夫",
+      "lang": "zh"
+    }
+  ],
+  "adminName2": "Lvivskyi Raion",
+  "name": "Lviv",
+  "fclName": "city, village,...",
+  "countryName": "Ukraine",
+  "fcodeName": "seat of a first-order administrative division",
+  "adminName1": "Lviv"
+}
