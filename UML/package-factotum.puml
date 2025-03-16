@@ -1,0 +1,105 @@
+@startuml
+skinparam defaultFontName Consolas
+skinparam defaultFontSize 16
+skinparam DefaultTextAlignment left
+skinparam PackageTitleAlignment left
+hide footbox
+skinparam dpi 180
+skinparam LifelineStrategy solid
+skinparam linetype ortho
+skinparam ClassBackgroundColor white
+left to right direction
+
+package Factotum
+{
+    class Point
+    class Rectangle
+    class Polygon
+}
+
+component Blaeus{
+    package Domain
+    {
+        package Geodata
+        {
+            class GeoPoint
+            class GeoRectangle
+            class GeoPolygon
+        }
+    }
+
+    package Gazetteers
+    {
+        interface IGazetteer
+    }
+
+    package Management
+    {
+        interface IWillem
+        class Settings
+    }
+
+    package Acquisition
+    {
+        interface IAcquisitionWorkflow
+        interface IAcquisitionAttributes
+
+        class AcquisitionResult
+        class AcquisitioResultProtocol
+
+        class GeonamesAcquisitionWorkflow
+        class LeidnerAcquisitionWorkflow
+    }
+
+
+    package Gui
+    {
+        package Interfaces
+        {
+            interface IAcquisitionAttributesDevice
+            interface IAcquisitionResultsViewerDevice
+        }
+
+        package Controls
+        {
+            class AcquisitionResultsViewerControl
+        }      
+
+        package Dialogs
+        {
+            class AcquisitionAttributesDialog
+        }          
+    }
+
+    package Enumerations
+    {
+
+    }
+
+    package Exceptions
+    {
+        class BlaeusDatabaseException
+        class BlaeusAcquisitionException
+    }
+
+    package Extensions
+    {
+    }  
+
+    package Tools
+    {
+    }     
+
+    package Dictionaries
+    {
+        class GeonamesDictionary
+        class OpenstreetmapDictionary
+    }
+
+    class HistoricName
+    class GeoLocality
+
+
+}
+
+@enduml

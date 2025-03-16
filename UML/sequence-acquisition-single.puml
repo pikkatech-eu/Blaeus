@@ -1,0 +1,27 @@
+@startuml
+skinparam defaultFontName Consolas
+skinparam defaultFontSize 16
+skinparam DefaultTextAlignment left
+skinparam PackageTitleAlignment left
+hide footbox
+skinparam dpi 180
+skinparam LifelineStrategy solid
+skinparam linetype ortho
+skinparam ClassBackgroundColor white
+' left to right direction
+
+Actor Admin
+
+Admin -> IWillemManager ++ : AcquireLocality
+IWillemManager -> AcquisitionDialog ++ : Show
+AcquisitionDialog -> IWillemManager -- : AcquisitionAttributes (string?)
+note right: AcquisitionAttributes\ncontains definition\nof workflow and parameters
+
+    
+IWillemManager -> IAcquirer ++ : AcquireLocality(AcquisitionAttributes)
+IAcquirer -> IWillemManager -- : locality: Geolocality
+IWillemManager -> IBlaeusDatabase ++ : TryInsert(locality)
+IBlaeusDatabase -> IWillemManager --  : result (string)
+IWillemManager -> Logger : Log (result)
+IWillemManager ->o] -- : Event AcquisitionAttempted(locality)
+@enduml

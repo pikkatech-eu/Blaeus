@@ -1,0 +1,33 @@
+@startuml
+skinparam defaultFontName Consolas
+skinparam defaultFontSize 16
+skinparam DefaultTextAlignment left
+skinparam PackageTitleAlignment left
+hide footbox
+skinparam dpi 180
+skinparam LifelineStrategy solid
+skinparam linetype ortho
+skinparam ClassBackgroundColor white
+'left to right direction
+
+start
+
+if (withAcquisitionDialog?) then (yes)
+  : acquisitionAttributes = AcquisitionDialog.ShowDialog();
+else (no)
+  :acquisitionAttributes;
+  note 
+    given as parameter
+  end note
+endif
+
+:workflow = SelectAcquisitionWorkflow(acquisitionAttributes);
+:locality = workflow.AcquireLocality(acquisitionAttributes);
+:acquisitionResult WillemManager.TryInsert(locality);
+note
+  acquisitionResult:
+  instance of AquisitionResult
+end note
+
+stop
+@enduml
